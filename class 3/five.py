@@ -2,7 +2,7 @@ class account:
     def __init__(self,id,name,balance):
         self.acc_id=id
         self.name=name
-        self.acc_bal=50000
+        self.acc_bal=balance
         print('Constructor executed automatically')
     def open_acc(self):
         print('account opened successfully')
